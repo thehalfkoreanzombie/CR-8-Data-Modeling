@@ -5,7 +5,7 @@
 ## Description
 For this project, I was tasked to create a new dataset in bigquery called 'air_travel', and create numerous tables within that dataset. I had to create three dimension tables: 'airlines', 'airports' and 'passengers'. The 'passengers' table had to be classified as SCD Type II. I also had to create a fact table called 'tickets'. I created the dataset and all of the tables using an ETL pipeline I created in python. The ERD for the dataset looks like this:
 
-![Image](img/air_travel_erd.png)
+![Image](./img/air_travel_erd.png)
 
 The pipeline can be found in the jupyter notebook here [ETL pipeline]. I plan on creating a main.py file with the whole pipeline that anyone can access and use, but haven't done that yet. 
 
